@@ -36,7 +36,7 @@
                 "command": "LOVE.launch",
                 "key": "Alt+L"
             }
-        ]
+        ],
         "menus": {
             "editor/context": [
                 {
