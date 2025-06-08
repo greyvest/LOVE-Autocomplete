@@ -37,6 +37,15 @@
                 "key": "Alt+L"
             }
         ]
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "LOVE.openDocumentation",
+                    "group": "Love",
+                    "when": "editorTextFocus && config.bookmarks.showCommandsInContextMenu"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
